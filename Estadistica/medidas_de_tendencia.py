@@ -77,7 +77,8 @@ import numpy as np
 from scipy import stats
 
 
-### VERSIÓN PANDAS
+### VERSIÓN PANDAS ###
+
 # Leemos nuestro dataframe
 dataframe = pd.read_csv("Estadistica/salary_data.csv", sep=";") #Revisamos el csv, en esta caso el separador es un ;
 
@@ -96,7 +97,8 @@ print(f"· Mediana: {dataframe.age.median()}")
 print("·"*40)
 
 
-### VERSIÓN NUMPY
+### VERSIÓN NUMPY ###
+
 # Recomendación: Trabajar con numpy arrays en vez de dataframe.
 
 array = np.array(dataframe.age)
@@ -107,6 +109,7 @@ print(f"· Media: {np.mean(array)}")
 # Moda
     # Numpy no tiene herramientas para calcular la moda.
     # Opción:
+    
 # np.unique(array, return_counts=True) devuelve los valores únicos en array y sus respectivas frecuencias.
 values, counts = np.unique(array, return_counts=True) 
 # np.argmax(counts) encuentra el índice del valor más frecuente.

@@ -41,7 +41,10 @@
     - La moda es útil porque proporciona una **idea rápida de cuál es el valor más típico** en un conjunto de datos.
     - Sin embargo, a diferencia de la media y la mediana, la moda no representa necesariamente un valor central o típico.
 
-     ![Estadística descriptiva](/media/moda.png)
+    ![Estadística descriptiva](/media/moda.png)
+
+- [Código de ejemplo: Medidas de tendencia](medidas_de_tendencia.py)
+
 
 ### Estadística inferencial
 - Esta área se centra en hacer inferencias o **predicciones** sobre una población **a partir de una muestra de datos**. 
