@@ -74,8 +74,6 @@ print("·"*40)
 # Importamos las herramientas de Data Science
 import pandas as pd
 import numpy as np
-from scipy import stats
-
 
 ### VERSIÓN PANDAS ###
 
