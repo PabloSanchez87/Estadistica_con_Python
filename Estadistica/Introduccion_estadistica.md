@@ -45,6 +45,46 @@
 
 - [Código de ejemplo: Medidas de tendencia](medidas_de_tendencia.py)
 
+---
+
+#### MEDIDAS DE DISPERSION
+- ¿Qué es el **rango**?
+  - El rango es una medida de **dispersión** que indica la **diferencia entre el valor máximo y el valor nínimo de un conjunto de datos**.
+  - Es una de las formas más sencillas de medir la variabilidad de los datos.
+  - ¿Cómo se calcula?
+    - Se indica el mayor de los valores **Xmax** de la muestra
+    - Se indica el menor de los valores **Xmin** de la muestra
+    - La diferencia entre ambos valores es el rango:
+      - **Rango = Xmax - Xmin**
+  
+- ¿Qué es la **varianza**?
+  - La varianza es un medida de dispersión que **indica cuánto varían los datos en un conjunto con respecto a la media**.
+  - Específicamente, la varianza **mide la media de las diferencias al cuadrado entre cada valor del conjunto y la media del conjunto**.
+  ![Varianza](/media/Varianza.png)
+
+- ¿Qué es la **desviación estándar**?
+  - La desviación estándar es ina medida de dispersión **que indica cuánto se desvían**, en promedio, **los valores de un conjunto de datos con respecto a su media**.
+  - A diferencia de la varianza, la **desviación estándar tiene las mismas unidades** que los daos originales, lo que facilita la interpretación.
+    - Una **desviación estándar baja** indica que **los datos están muy dispersos** alrededor de la media.
+    - Una **desviación estándar alta** indica que **los datos están más concentrados** cerca de la media.
+     
+    ![Desviación estándar](/media/desviacion_estandar.png)
+
+- ¿Qué son los **percentiles**?
+  - Los percentiles son medidas estadísticas que **dividen un conjunto de datos ordenados en 100 partes iguales**
+  - Cada percentil indica **el valor debajo del cual se encuentran un cierto porcentaje de los datos**
+  - Por ejemplo, **el percentil 25(P25) es el valor debajo del cual se encuentra el 25% de los datos**, el percentirl 50(P50) es el valor debajo del cual se encuentra el 50% de los datos(**también conocido como la mediana**)
+  - ¿Por qué son importantes?
+    - **Análisis de distribución**
+      - Los percentiles permiten comprender cómo se distribuyen los datos.
+      - Por ejemplo, conocer el percentil 90 puede ayudarte a saber qué valor supera el 90% de los datos.
+    - **Identificación de valores atípicos**
+      - Los percentiles pueden ayudar a identificar valores atípicos o extremos en los datos.
+      - Por ejemplo, los valores por debajo del percentil 5 o por encima del percentil 95 pueden considerarse atípicos.
+
+- [Código de ejemplo: Medidas de dispersión](medidas_de_dispersion.py)
+  
+---
 
 ### Estadística inferencial
 - Esta área se centra en hacer inferencias o **predicciones** sobre una población **a partir de una muestra de datos**. 

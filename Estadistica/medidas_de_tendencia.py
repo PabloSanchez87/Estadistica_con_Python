@@ -75,8 +75,7 @@ print("·"*40)
 import pandas as pd
 import numpy as np
 
-### VERSIÓN PANDAS ###
-
+#? VERSIÓN PANDAS
 # Leemos nuestro dataframe
 dataframe = pd.read_csv("Estadistica/salary_data.csv", sep=";") #Revisamos el csv, en esta caso el separador es un ;
 
@@ -95,8 +94,7 @@ print(f"· Mediana: {dataframe.age.median()}")
 print("·"*40)
 
 
-### VERSIÓN NUMPY ###
-
+#? VERSIÓN NUMPY 
 # Recomendación: Trabajar con numpy arrays en vez de dataframe.
 
 array = np.array(dataframe.age)
