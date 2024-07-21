@@ -1,9 +1,18 @@
 # Estadistica_con_Python
 Estadística | Manejo y visualización de datos | Numpy | Pandas
 
+# Temario
+**1. Introducción a la Estadística Gráficos y Visualización de Datos**
 
+**2. Probabilidad**
 
+**3. Distribuciones de Probabilidad**
 
+**4. Correlación y Regresión**
+
+**5. Métodos de Muestreo**
+
+**6. Aplicaciones de la Estadística en Redes Neuronales**
 
 ---
 

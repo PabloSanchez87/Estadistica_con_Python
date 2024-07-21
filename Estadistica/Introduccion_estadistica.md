@@ -86,6 +86,48 @@
   
 ---
 
+#### MEDIDAS DE FORMA
+- ¿Qué es el **Asimetría**?
+  - Es una medida que describe la **falta de simetría en la distribución de los datos**
+  - Indica la dirección y el grado de desbalance en una distribución.
+  - **En una distribución simétrica, los datos están distribuidos de manera uniforme alrededor de la media**
+  - Sin embargo, en una **distribución asimétrica, los datos pueden estar más concentrados en uno de los extremos**.
+    ![Asimetría](/media/asimetria.png)  
+  - ¿Cómo se calcula la asimetría? 
+    - La asimetría se mide comúnmente usando el coeficiente de asimetría.
+    - Se pueden utilizar varias fórmulas para calculaor, pero una fórmula comúnmente utilizada es la del **coeficiente de asimetría de Pearson**
+  
+    ![Asimetría](/media/formula_asimetria.png)  
+
+- ¿Qué es el **Curtosis**?
+  - La curtosis en estadística es una medida que describe **la forma de la distribución de los datos**, especialmente **la agudeza de la curva en su pico y la pesadez en sus colas**
+  - Mientras que la asimetría se centra en la simetría de la distribución, la curtosis proporciona información sobre el **perdil de la distribución en comparación con una distribución normal(campana de Gauss**)
+  - Tipos de Curtosis
+    - Mesocúrtica
+      - Valor de curtosis = 0
+      - Describe una distribución que tiene una forma **similar a la distribución normal**.
+    - Leptocútica
+      - Valor de curtosis > 0
+      - La distribución tiene un pico más alto y **colas más pesadas que la distribución normal**.
+      - Indica más valores extremos.
+      - Ejemplo. Distribuciones con valores atípicos más frecuentes
+    - Platicúrtica
+      - Valor de curtisus < 0
+      - La distribución tiene un pico más bajo y colas más ligeras que una distribución normal.
+      - Indica menos valores extremos
+      - Ejemplo: Distribuciones más planas y anchas.
+
+        ![Asimetría](/media/curtosis.png) 
+    
+    - ¿Cómo se calcula la curtosis?
+      - La formula para la curtosis es **momento de cuato orden** de una distribución de datos.
+
+        ![Asimetría](/media/curtosis_formula.png) 
+
+- [Código de ejemplo: Medidas de forma](medidas_de_forma.py)
+  
+---
+  
 ### Estadística inferencial
 - Esta área se centra en hacer inferencias o **predicciones** sobre una población **a partir de una muestra de datos**. 
 - Utiliza técnicas como la estimación de intervalos de confianza, pruebas de hipótesis, análisis de regresión, y análisis de varianza **para llegar a conclusiones sobre la población de interés**.
