@@ -1,4 +1,4 @@
-# TEMARIO
+# [Temario](../README.md)
 ## Introducción a la Estadística
 ### Importancia de la estadística en Redes Neuronales
 - ¿Por qué es importante?

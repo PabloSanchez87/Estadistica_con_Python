@@ -2,7 +2,12 @@
 Estadística | Manejo y visualización de datos | Numpy | Pandas
 
 # Temario
-**1. Introducción a la Estadística Gráficos y Visualización de Datos**
+[**1. Introducción a la Estadística Gráficos y Visualización de Datos**](Estadistica/Introduccion_estadistica.md)
+
+- [Código de ejemplo: Medidas de tendencia](/Estadistica/medidas_de_tendencia.py)
+- [Código de ejemplo: Medidas de dispersión](/Estadistica/medidas_de_dispersion.py)
+- [Código de ejemplo: Medidas de forma](/Estadistica/medidas_de_forma.py)
+
 
 **2. Probabilidad**
 
