@@ -1,4 +1,4 @@
-# Estadistica_con_Python
+# Estadística con Python
 Estadística | Manejo y visualización de datos | Numpy | Pandas
 
 # Temario
