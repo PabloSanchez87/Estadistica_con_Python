@@ -12,7 +12,7 @@ https://www.kaggle.com/datasets/micheldc55/anual-salary-reports-survey
     - Sexo/Género
     - Nivel de estudios
 """
-
+# Forma básica para calcular Media, moda y mediana.
 def media_manual(vector):
     # Media
     suma = 0
@@ -33,7 +33,6 @@ def media_metodo(vector):
     media = (1/n_elementos)*suma
     print(f'· Media con sum y len: {media}')
 
-
 def moda_manual(vector):
     moda = 0
     repeticiones = 0
@@ -49,8 +48,7 @@ def moda_manual(vector):
         if dic[elemento] > repeticiones:
             moda = elemento
     
-    print(f'· Moda con bucle: {moda}')
-    
+    print(f'· Moda con bucle: {moda}') 
     
 def mediana_manual(vector:list):
     vector.sort(reverse=False) # Ordenar de menor a mayor.
@@ -69,3 +67,54 @@ media_manual(vector)
 media_metodo(vector)
 moda_manual(vector)
 mediana_manual(vector)
+
+print("·"*40)
+
+#######################################################
+# Importamos las herramientas de Data Science
+import pandas as pd
+import numpy as np
+from scipy import stats
+
+
+### VERSIÓN PANDAS
+# Leemos nuestro dataframe
+dataframe = pd.read_csv("Estadistica/salary_data.csv", sep=";") #Revisamos el csv, en esta caso el separador es un ;
+
+# Comprobamos imprimiendo las cabeceras.
+print(dataframe.head())
+
+print("·"*40)
+
+# Media
+print(f"· Media: {dataframe.age.mean()}") 
+# Moda
+print(f"· Moda: {dataframe.age.mode()}") 
+# Mediana
+print(f"· Mediana: {dataframe.age.median()}") 
+
+print("·"*40)
+
+
+### VERSIÓN NUMPY
+# Recomendación: Trabajar con numpy arrays en vez de dataframe.
+
+array = np.array(dataframe.age)
+
+# Media
+print(f"· Media: {np.mean(array)}") 
+
+# Moda
+    # Numpy no tiene herramientas para calcular la moda.
+    # Opción:
+# np.unique(array, return_counts=True) devuelve los valores únicos en array y sus respectivas frecuencias.
+values, counts = np.unique(array, return_counts=True) 
+# np.argmax(counts) encuentra el índice del valor más frecuente.
+# values[np.argmax(counts)] devuelve el valor de la moda.
+mode_value = values[np.argmax(counts)]
+print(f"· Moda: {mode_value}")
+
+# Mediana
+print(f"· Mediana: {np.median(array)}")
+
+
