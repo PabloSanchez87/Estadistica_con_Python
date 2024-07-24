@@ -138,8 +138,6 @@
   
       ![Flor](../media/flor.png)
 
-  - [Código de ejemplo: Data set IRIS](/Estadistica/data_set_iris.py)
-
   - Librerías de Python utilizadas.
   
     ```bash
@@ -149,6 +147,8 @@
     ```bash
       pip install seaborn
     ```
+
+  - [Código de ejemplo: Data set IRIS](../Estadistica/seaborn_data_set_iris.py)
 
 
 ### Buenas prácticas de visualización

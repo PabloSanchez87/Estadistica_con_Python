@@ -2,14 +2,15 @@
 **Estadística | Manejo y visualización de datos | Numpy | Pandas**
 
 # Índice
-[**1. Introducción a la Estadística Gráficos y Visualización de Datos**](Estadistica/Introduccion_estadistica.md)
-- [Introducción estadística](../Estadistica/Introduccion_estadistica.md)
-  - [Código de ejemplo: Medidas de tendencia](/Estadistica/medidas_de_tendencia.py)
-  - [Código de ejemplo: Medidas de dispersión](/Estadistica/medidas_de_dispersion.py)
-  - [Código de ejemplo: Medidas de forma](/Estadistica/medidas_de_forma.py)
+[**1. Introducción a la Estadística Gráficos y Visualización de Datos**](./Estadistica/Introduccion_estadistica.md)
+- [Introducción estadística](./Estadistica/Introduccion_estadistica.md)
+  - [Código de ejemplo: Medidas de tendencia](./Estadistica/medidas_de_tendencia.py)
+  - [Código de ejemplo: Medidas de dispersión](./Estadistica/medidas_de_dispersion.py)
+  - [Código de ejemplo: Medidas de forma](./Estadistica/medidas_de_forma.py)
 
-- [Gráficos y Visualización de datos](../Estadistica/Graficos_Visualizacion_de_datos.md)
-
+- [Gráficos y Visualización de datos](./Estadistica/Graficos_Visualizacion_de_datos.md)
+    - [Código de ejemplo: Data set IRIS](./Estadistica/seaborn_data_set_iris.py)
+  
 **2. Probabilidad**
 
 **3. Distribuciones de Probabilidad**
