@@ -150,10 +150,86 @@
 
   - [Código de ejemplo: Data set IRIS](../Estadistica/seaborn_data_set_iris.py)
 
-
+---
+ 
 ### Buenas prácticas de visualización
+**1. Claridad y Simplicidad**
+- **Evitar la sobrecarga de información:** 
+  - Los gráficos deben ser lo más simples posible, evitando elementos innecesarios que puedan distraer o confundir a los espectadores.
+- **Usar gráficos adecuados:** 
+  - Seleccionar el tipo de gráfico correcto para el tipo de datos y el mensaje que se quiere comunicar. Por ejemplo, usar gráficos de barras para comparaciones discretas y gráficos de líneas para tendencias temporales.
+- **Evitar el uso de efectos visuales excesivos:** 
+  - Como sombras, gradientes o 3D que no aportan información adicional y pueden complicar la interpretación.
 
+**2. Escalas Apropiadas**
+- **Escalas coherentes:** 
+  - Asegurarse de que las escalas de los ejes sean coherentes y apropiadas para los datos que se están mostrando. Evitar escalas truncadas que pueden exagerar o minimizar diferencias.
+- **Uso de escalas logarítmicas cuando sea necesario:** 
+  - Para datos que varían en órdenes de magnitud, una escala logarítmica puede ser más adecuada.
+- **Anotar intervalos y unidades:** 
+  - Clarificar las unidades de medida y asegurar que los intervalos en los ejes sean uniformes y comprensibles.
+  
+**3. Colores y Etiquetas**
+- **Uso consciente del color:** 
+  - Utilizar colores que sean accesibles para todos, incluyendo a las personas con daltonismo. Evitar el uso excesivo de colores y asegurarse de que cada color tenga un propósito claro.
+- **Contraste adecuado:** 
+  - Asegurar un buen contraste entre el texto, las líneas y el fondo para que la información sea legible.
+- **Etiquetas claras y legibles:** 
+  - Todas las partes del gráfico deben estar claramente etiquetadas, incluyendo los ejes, las leyendas y los puntos de datos, si es relevante.
+  
+**4. Narrativas y Contexto**
+- **Proveer contexto:** 
+  - Asegurar que el gráfico incluya suficiente contexto para que el espectador entienda lo que se está viendo. Esto puede incluir títulos descriptivos, subtítulos, notas al pie o referencias.
+- **Narrativa clara:** 
+  - El gráfico debe contar una historia clara o transmitir un mensaje específico. Esto puede lograrse destacando ciertos datos o anotando puntos importantes directamente en el gráfico.
+- **Mantener la precisión:** 
+  - Asegurar que el gráfico represente los datos con precisión, sin distorsionar la realidad. Es importante no manipular gráficos para hacer que los datos parezcan más impresionantes o significativos de lo que realmente son.
 
+- **Ejemplos y Consideraciones Adicionales:**
+  
+  - **Análisis de audiencias:** 
+    - Considerar quién es el público objetivo y adaptar la visualización en consecuencia.
+  - **Pruebas de interpretación:** 
+    - Antes de compartir el gráfico, pedir a alguien más que lo interprete para asegurarse de que el mensaje es claro.
+  - **Documentación:** 
+    - Incluir fuentes de datos, métodos de análisis, y cualquier otra información relevante que ayude a contextualizar el gráfico y respaldar su credibilidad.
+
+---
+
+### Limitaciones y preocupaciones al usar gráficos
+
+> [!IMPORTANT]
+> Los gráficos son herramientas muy potentes para explicar las diferentes realidades. Sin embrago, también estos tienen limitaciones.
+
+- **Sesgo y manipulación**
+  - **Selección de datos**
+    - Seleccionar solo ciertos datos para incluir en un gráfico puede llevar a intepretaciones engañosas. 
+    - Es importante ser transparente sobre qué datos se están incluyendo y por qué.
+  - **Manipulación del Eje Y**
+    - Cambiar la escala del eje Y puede exagerar o miminizar las diferencias aparentes en los datos. 
+    - Siempre muestra los ejes claramente y considera empezar los ejes en cero cuando sea posible.
+  - **Gráficos 3D y Perpectiva**
+    - Los gráficos en 3D pueden ser visualmente atracticos pero a menudo distorsionan la interpretación de los datos.
+    - La perspectica puede hacer que los datos sean difíciles de leer con precisión.
+
+- **Precisión**
+  - **Muestreo insuficiente**
+    - Si los datos representados en un gráfico provienen de un muestreo insuficiente, las conclusiones pueden no ser fiables.
+    - Asegúrate de que los datos sean representativos.
+  - **Agregación de datos**
+    - La agregación de datos puede ocultar variaciones importantes.
+    - Mostrar promedios sin desviaciones estándar o rangos puede dar una visión incompleta de los datos.
+  - **Errores de muestreo y representación**
+    - Los gráficos deben tener en cuenta los errores de muestreo y representación.
+    - Incluye imágenes de error cuando sea necesario y sé transparente sobre las limitaciones de los datos.
+
+- **Contexto y comparaciones inadecuadas**
+  - **Falta de contexto**
+    - Los gráficos que no proporcionan suficiente contexto pueden llevar a interprestaciones erróneas.
+    - Asegúrate de que los espectadores comprendan de dónde vienen los datos y en qué contexto deben ser interpretados.
+  - **Comparaciones inadecuadas**
+    - Comparar datos que no son comparables puede llevar a conluciones erróneas.
+    - Asegúrate de que las comparaciones sean válidas y estén bien fundamentadas.
 
 
 
