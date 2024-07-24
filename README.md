@@ -1,13 +1,14 @@
 # Estadística con Python
-Estadística | Manejo y visualización de datos | Numpy | Pandas
+**Estadística | Manejo y visualización de datos | Numpy | Pandas**
 
-# Temario
+# Índice
 [**1. Introducción a la Estadística Gráficos y Visualización de Datos**](Estadistica/Introduccion_estadistica.md)
+- [Introducción estadística](../Estadistica/Introduccion_estadistica.md)
+  - [Código de ejemplo: Medidas de tendencia](/Estadistica/medidas_de_tendencia.py)
+  - [Código de ejemplo: Medidas de dispersión](/Estadistica/medidas_de_dispersion.py)
+  - [Código de ejemplo: Medidas de forma](/Estadistica/medidas_de_forma.py)
 
-- [Código de ejemplo: Medidas de tendencia](/Estadistica/medidas_de_tendencia.py)
-- [Código de ejemplo: Medidas de dispersión](/Estadistica/medidas_de_dispersion.py)
-- [Código de ejemplo: Medidas de forma](/Estadistica/medidas_de_forma.py)
-
+- [Gráficos y Visualización de datos](../Estadistica/Graficos_Visualizacion_de_datos.md)
 
 **2. Probabilidad**
 

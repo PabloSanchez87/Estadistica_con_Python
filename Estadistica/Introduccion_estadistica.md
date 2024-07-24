@@ -1,4 +1,18 @@
-# [Temario](../README.md)
+# [Índice](../README.md)
+**1. Introducción a la Estadística Gráficos y Visualización de Datos**  
+  - [Introducción estadística](../Estadistica/Introduccion_estadistica.md)
+  - [Gráficos y Visualización de datos](../Estadistica/Graficos_Visualizacion_de_datos.md)
+
+**2. Probabilidad**
+
+**3. Distribuciones de Probabilidad**
+
+**4. Correlación y Regresión**
+
+**5. Métodos de Muestreo**
+
+---
+
 ## Introducción a la Estadística
 ### Importancia de la estadística en Redes Neuronales
 - ¿Por qué es importante?
